@@ -1048,7 +1048,7 @@ section{
 }
 
 //iconLinks
-ul.iconLinks {
+.iconLinks ul {
     li {
         -webkit-box-shadow: 5px 5px 0px 0px rgba(204,209,211,1);
         -moz-box-shadow: 5px 5px 0px 0px rgba(204,209,211,1);
@@ -1909,3 +1909,4 @@ p.highlight{
 .ie8 .top-nav span.top-nav--logo{
     background-image: url(../images/logo-top.png);
 }
+
