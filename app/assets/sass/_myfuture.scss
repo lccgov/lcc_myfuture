@@ -220,7 +220,8 @@ footer.main {
     }
 
     a{
-        background:#F0F6F8;
+        background-color:#F0F6F8 !important;
+        background-position:center 40px !important;
         display:block;
         padding:40px 0;
         position:relative;
@@ -1920,4 +1921,9 @@ p.highlight{
  li {
     float:none;
 }
+}
+
+
+.top-nav{
+    background:#F0F6F8;
 }
