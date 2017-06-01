@@ -862,7 +862,7 @@ hr.spacer-middle{
         background:$red;
     }
     &.blue{
-        background:&blue;
+        background:$blue;
     }
 
     &.turquoise,
@@ -1922,4 +1922,9 @@ p.highlight{
     h2{
         text-align:center;
     }
+}
+
+//breadcrumb
+.breadcrumb ul{
+    padding:0;
 }
