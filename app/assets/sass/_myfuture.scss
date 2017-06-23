@@ -225,7 +225,7 @@ footer.main {
         position:relative;
         min-height:240px;
 
-        &:hover, &:focus{
+        &:hover{
             background-color:#F8FAFA !important;
             text-decoration:none !important;
         }
@@ -283,7 +283,7 @@ footer.main {
         }
 
         &:hover span.info, 
-        &:focus span.info{
+       {
             background:darken($turquoise, 10%) !important;
             border-color:darken($turquoise, 30%);
         }
@@ -296,7 +296,7 @@ footer.main {
         }
         
         &:hover span.info, 
-        &:focus span.info{
+       {
             background:darken($blue, 10%) !important;
             border-color:darken($blue, 30%);
         }
@@ -309,7 +309,7 @@ footer.main {
         }
 
         &:hover span.info, 
-        &:focus span.info{
+       {
             background:darken($yellow, 10%) !important;
             border-color:darken($yellow, 30%);
         }
@@ -322,7 +322,7 @@ footer.main {
         }
 
         &:hover span.info, 
-        &:focus span.info{
+       {
             background:darken($red, 10%) !important;
             border-color:darken($red, 30%);
         }
@@ -430,7 +430,7 @@ footer.main {
             }
 
             &:hover span.info span.arrow,
-            &:focus span.info span.arrow{
+            span.arrow{
                 background: url(../images/arrow-white-md.png) center center no-repeat;
                 right:0;
                 left:auto;
@@ -524,7 +524,7 @@ footer.main {
                 } 
 
                 &:hover span.info span.arrow,
-                &:focus span.info span.arrow{
+                span.arrow{
                     background: url(../images/btn-external-white-promo.png) left bottom no-repeat;
                 }
             }
@@ -1033,7 +1033,6 @@ section{
                 box-shadow: none;
 
                 &:hover,
-                &:focus,
                 &:active{
                     color: #fff !important;
                     background-color: #173243;
@@ -2018,4 +2017,9 @@ hr.spacer-bottom{
     a{
         font-weight:700;
     }
+}
+
+.btn.btn-primary:focus{
+    background-color:#FFBF47 !important;
+    color:#212224  !important;
 }
